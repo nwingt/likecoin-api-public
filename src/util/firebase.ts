@@ -61,7 +61,7 @@ export const likeNFTSubscriptionTxCollection = getCollectionIfDefined(
   FIRESTORE_NFT_SUBSCRIPTION_TX_ROOT,
 );
 export const likeNFTBookCollection = getCollectionIfDefined(FIRESTORE_LIKER_NFT_BOOK_ROOT);
-export const likeNFTBookUserCollection = getCollectionIfDefined(
+export const likeNFTConnectedUserCollection = getCollectionIfDefined(
   FIRESTORE_LIKER_NFT_BOOK_USER_ROOT,
 );
 export const likeButtonUrlCollection = getCollectionIfDefined(FIRESTORE_LIKE_URL_ROOT);
